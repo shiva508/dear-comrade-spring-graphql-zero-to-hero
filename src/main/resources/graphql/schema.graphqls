@@ -1,0 +1,8 @@
+type Query {
+    bookById(id: ID): Book
+    findByCustomerId(id: ID): Customer
+    allCustomers: [Customer]
+    getAllBankAccounts: [BankAccount]
+}
+
+

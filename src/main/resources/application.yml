@@ -1,0 +1,6 @@
+spring:
+  application:
+    name: dear-comrade-spring-graphql-zero-to-hero
+  graphql:
+    graphiql:
+      enabled: true
