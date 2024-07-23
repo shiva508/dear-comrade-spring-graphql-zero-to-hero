@@ -1,0 +1,3 @@
+spring:
+  application:
+    name: dear-comrade-spring-graphql-zero-to-hero
