@@ -1,0 +1,17 @@
+type Query {
+    comradeById(id: ID) : Comrade
+    comrades: [Comrade]
+    reactiveComrades: [Comrade]
+}
+
+type Comrade{
+    id: ID,
+    name: String
+    dear: Dear
+}
+
+type Dear{
+    id: ID,
+    comradeId: ID
+    comment: String
+}

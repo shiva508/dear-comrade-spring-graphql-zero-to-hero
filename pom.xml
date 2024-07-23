@@ -12,7 +12,7 @@
 	<artifactId>dear-comrade-spring-graphql-zero-to-hero</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>dear-comrade-spring-graphql-zero-to-hero</name>
-	<description>dear-comrade-spring-graphql-zero-to-hero</description>
+	<description>dear-comrade-spring-graphql-zero-to-hero Solves N+1 issue</description>
 	<url/>
 	<licenses>
 		<license/>
