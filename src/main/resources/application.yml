@@ -1,0 +1,9 @@
+server:
+  port: 0
+spring:
+  graphql:
+    rsocket:
+      mapping: graphql
+  rsocket:
+    server:
+      port: 9191
