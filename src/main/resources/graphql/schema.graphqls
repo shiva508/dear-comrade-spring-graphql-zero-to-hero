@@ -1,0 +1,20 @@
+type Query {
+    comradeById(id: ID) : Comrade
+    comrades: [Comrade]
+    reactiveComrades: [Comrade]
+}
+type Mutation{
+    addComrade(name:String) : Comrade
+}
+
+type Comrade{
+    id: ID,
+    name: String
+    dear: Dear
+}
+
+type Dear{
+    id: ID,
+    comradeId: ID
+    comment: String
+}
