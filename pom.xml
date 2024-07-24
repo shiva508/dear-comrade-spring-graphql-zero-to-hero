@@ -103,33 +103,7 @@
 			<plugin>
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-maven-plugin</artifactId>
-				<!--                <configuration>-->
-				<!--                    <image>-->
-				<!--                        <builder>paketobuildpacks/builder-jammy-base:latest</builder>-->
-				<!--                    </image>-->
-				<!--                </configuration>-->
 			</plugin>
-			<!--            <plugin>-->
-			<!--                <groupId>io.github.deweyjose</groupId>-->
-			<!--                <artifactId>graphqlcodegen-maven-plugin</artifactId>-->
-			<!--                <version>1.18</version>-->
-			<!--                <executions>-->
-			<!--                    <execution>-->
-			<!--                        <goals>-->
-			<!--                            <goal>generate</goal>-->
-			<!--                        </goals>-->
-			<!--                    </execution>-->
-			<!--                </executions>-->
-			<!--                <configuration>-->
-			<!--                    <schemaPaths>-->
-			<!--                        <param>src/main/resources/schema/schema.graphqls</param>-->
-			<!--                    </schemaPaths>-->
-			<!--                    <packageName>${project.groupId}.graphql</packageName>-->
-			<!--                    <generateClient>true</generateClient>-->
-			<!--&lt;!&ndash;                    <subPackageNameClient>client</subPackageNameClient>&ndash;&gt;-->
-			<!--&lt;!&ndash;                    <outputDir>${project.build.directory}</outputDir>&ndash;&gt;-->
-			<!--                </configuration>-->
-			<!--            </plugin>-->
 			<plugin>
 				<groupId>io.github.deweyjose</groupId>
 				<artifactId>graphqlcodegen-maven-plugin</artifactId>
@@ -149,7 +123,6 @@
 					<generateClientApi>true</generateClientApi>
 					<writeToFiles>true</writeToFiles>
 					<generateDocs>true</generateDocs>
-<!--					<generateClient>true</generateClient>-->
 					<packageName>${project.groupId}</packageName>
 					<addGeneratedAnnotation>true</addGeneratedAnnotation>
 					<outputDir>${project.build.directory}/generated-sources</outputDir>
