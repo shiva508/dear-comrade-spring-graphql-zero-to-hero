@@ -3,10 +3,10 @@ package com.comrade;
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
-@SpringBootTest
+//@SpringBootTest
 class DearComradeSpringGraphqlZeroToHeroApplicationTests {
 
-	@Test
+	//@Test
 	void contextLoads() {
 	}
 

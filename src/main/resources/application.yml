@@ -1,0 +1,13 @@
+server:
+  port: 8084
+spring:
+  application:
+    name: dear-comrade-spring-graphql-zero-to-hero
+  graphql:
+    graphiql:
+      enabled: true
+client:
+  tcp: 127.0.0.1
+  port: 8080
+  route: graphql
+  base-url: http://localhost:8080/graphql
